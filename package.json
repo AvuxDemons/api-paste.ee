@@ -1,0 +1,38 @@
+{
+  "name": "api-paste.ee",
+  "version": "1.0.0",
+  "description": "A basic library for interacting with Paste.ee API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AvuxDemons/api-paste.ee.git"
+  },
+  "keywords": [
+    "paste",
+    "paste.ee",
+    "api",
+    "api-paste.ee",
+    "paste.ee-api",
+    "paste.ee-wrapper",
+    "paste.ee-wrapper-api",
+    "pastebin",
+    "pastebin-api",
+    "pastebin-wrapper"
+  ],
+  "author": "AvuxDemons",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AvuxDemons/api-paste.ee/issues"
+  },
+  "homepage": "https://github.com/AvuxDemons/api-paste.ee#readme",
+  "publishConfig": {
+    "@avuxdemons:registry": "https://npm.pkg.github.com"
+  },
+  "dependencies": {
+    "axios": "^1.6.7",
+    "ms": "^2.1.3"
+  }
+}

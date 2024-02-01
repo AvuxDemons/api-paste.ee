@@ -1,7 +1,7 @@
 const axios = require('axios');
 const ms = require('ms');
 
-const base_url = "${base_url}";
+const base_url = "https://api.paste.ee/v1";
 
 class Paste_ee {
     constructor(key) {
@@ -48,7 +48,7 @@ class Paste_ee {
         } catch (error) {
             return {
                 status: false,
-                message: error.response.statusText
+                message: error.response.statusText || "Something wrong"
             }
         }
     }
@@ -64,7 +64,7 @@ class Paste_ee {
         } catch (error) {
             return {
                 status: false,
-                message: error.response.statusText
+                message: error.response.statusText || "Something wrong"
             }
         }
     }
@@ -80,7 +80,7 @@ class Paste_ee {
         } catch (error) {
             return {
                 status: false,
-                message: error.response.statusText
+                message: error.response.statusText || "Something wrong"
             }
         }
     }
@@ -96,7 +96,7 @@ class Paste_ee {
         } catch (error) {
             return {
                 status: false,
-                message: error.response.statusText
+                message: error.response.statusText || "Something wrong"
             }
         }
     }
@@ -112,7 +112,7 @@ class Paste_ee {
         } catch (error) {
             return {
                 status: false,
-                message: error.response.statusText
+                message: error.response.statusText || "Something wrong"
             }
         }
     }
@@ -128,7 +128,7 @@ class Paste_ee {
         } catch (error) {
             return {
                 status: false,
-                message: error.response.statusText
+                message: error.response.statusText || "Something wrong"
             }
         }
     }
