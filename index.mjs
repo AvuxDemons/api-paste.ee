@@ -1,5 +1,5 @@
-const axios = require('axios');
-const ms = require('ms');
+import axios from 'axios';
+import ms from 'ms';
 
 const base_url = "https://api.paste.ee/v1";
 
@@ -134,6 +134,4 @@ class Paste_ee {
     }
 }
 
-// Support for both require and import
-module.exports = Paste_ee;
 export default Paste_ee;

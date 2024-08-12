@@ -1,8 +1,9 @@
 {
   "name": "api-paste.ee",
-  "version": "1.0.2",
+  "version": "1.0.0",
   "description": "A basic library for interacting with Paste.ee API",
-  "main": "index.js",
+  "main": "index.cjs",
+  "module": "index.mjs",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
