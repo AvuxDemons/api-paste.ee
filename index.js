@@ -49,7 +49,7 @@ class Paste_ee {
             return {
                 status: false,
                 message: error.response.statusText || "Something wrong"
-            }
+            };
         }
     }
 
@@ -65,7 +65,7 @@ class Paste_ee {
             return {
                 status: false,
                 message: error.response.statusText || "Something wrong"
-            }
+            };
         }
     }
 
@@ -81,7 +81,7 @@ class Paste_ee {
             return {
                 status: false,
                 message: error.response.statusText || "Something wrong"
-            }
+            };
         }
     }
 
@@ -97,7 +97,7 @@ class Paste_ee {
             return {
                 status: false,
                 message: error.response.statusText || "Something wrong"
-            }
+            };
         }
     }
 
@@ -113,7 +113,7 @@ class Paste_ee {
             return {
                 status: false,
                 message: error.response.statusText || "Something wrong"
-            }
+            };
         }
     }
 
@@ -129,9 +129,11 @@ class Paste_ee {
             return {
                 status: false,
                 message: error.response.statusText || "Something wrong"
-            }
+            };
         }
     }
 }
 
+// Support for both require and import
 module.exports = Paste_ee;
+export default Paste_ee;

@@ -17,7 +17,11 @@ npm i api-paste.ee
 ## Usage
 
 ```js
-const Paste_ee = require("api-paste.ee"); // Import the Library ( Required )
+// Import the Library ( Required )
+const Paste_ee = require("api-paste.ee");
+// or
+import Paste_ee = require("api-paste.ee");
+
 const paste = new Paste_ee('YOUR_API_KEY'); // Create New Object ( Required )
 
 const api_paste = async () => {
@@ -78,7 +82,6 @@ const api_paste = async () => {
     const syntaxlist = await paste.syntaxList();
     console.log("All Syntax : ", syntaxlist);
 }
-
 ```
 
 ## **FUNCTION LIST**
